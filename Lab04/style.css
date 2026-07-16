@@ -1,0 +1,80 @@
+#parent{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filed, #output{
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+input{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(205, 219, 219);
+    border: none;
+    /* width: 300px; */
+    outline: none;
+    border-radius: 10px;
+    /* padding: 10px;
+    margin: 10px; */
+    font-size: 20px;
+}
+#out{
+    width: 100%;
+}
+button{
+    background-color: rgb(59, 139, 122);
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:  rgb(45, 104, 92);
+}
+table{
+    width: 700px;
+}
+thead{
+    background-color: rgb(231, 241, 241);
+    border:none;
+}
+th{
+    padding: 10px;
+}
+td{
+border-bottom: solid 2px black;
+text-align: center;
+padding: 10px;
+}
+.del{
+    color: red;
+}
+.del:hover{
+    background-color: rgb(191, 56, 56);
+    color: white;
+    cursor: pointer;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 10px;
+}
